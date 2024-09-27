@@ -11,7 +11,7 @@ import { InfoMessageComponent } from '../info-message/info-message.component';
 })
 export class CounterComponent implements OnInit {
   count = signal(0);
-  private zone = inject(NgZone);
+  // private zone = inject(NgZone);
   
 
   get debugOutput() {
@@ -24,11 +24,15 @@ export class CounterComponent implements OnInit {
       this.count.set(0);
     } ,4000);
 
-    this.zone.runOutsideAngular(() => {
-      setTimeout(() => {
-        console.log('Timer Expired!');
-      } ,5000);
-    });
+    // this.zone.runOutsideAngular(() => {
+    //   setTimeout(() => {
+    //     console.log('Timer Expired!');
+    //   } ,5000);
+    // });
+
+    setTimeout(() => {
+      console.log('Timer Expired!');
+    } ,5000);
   }
 
   onDecrement() {
