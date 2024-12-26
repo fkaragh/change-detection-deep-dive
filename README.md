@@ -1,6 +1,15 @@
 # ChangeDetectionDeepDive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+This project is an Angular application designed to explore and demonstrate the concepts of change detection in Angular.  
+
+It includes various components such as [`CounterComponent`](../../../../../../c:/Users/fkara/Documents/GitHub/change-detection-deep-dive/src/app/counter/counter.component.ts ), [`MessagesComponent`](../../../../../../c:/Users/fkara/Documents/GitHub/change-detection-deep-dive/src/app/messages/messages.component.ts ), [`InfoMessageComponent`](../../../../../../c:/Users/fkara/Documents/GitHub/change-detection-deep-dive/src/app/info-message/info-message.component.ts ), and services like [`MessagesService`](../../../../../../c:/Users/fkara/Documents/GitHub/change-detection-deep-dive/src/app/messages/messages.service.ts ) to illustrate how change detection works in Angular applications.  
+
+The project uses Angular's experimental zoneless change detection and signals to manage state and reactivity.  
+The application is set up with standard Angular configurations for building, serving, and testing the project.
+
+## Screenshots
+
+![1](https://github.com/user-attachments/assets/13a38952-827c-4426-89a3-acc648a00e81)
 
 ## Development server
 
